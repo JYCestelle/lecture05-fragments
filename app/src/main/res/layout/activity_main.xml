@@ -33,11 +33,19 @@
             />
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/listView"
+    <FrameLayout
+        android:id= "@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/inputLayout"
-        />
+        >
+       <!--<fragment-->
+            <!--android:id="@+id/fragment"-->
+            <!--android:name="edu.uw.fragmentdemo.MoivesFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+    </FrameLayout>
+
 
 </RelativeLayout>
